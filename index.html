@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Movie</title>
+        <link href="./assets/css/bootstrap.min.css" rel="stylesheet">
+        <link href="./assets/css/styles.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <form id="getMovieList" class="form-horizontal" role="form">  
+                        <div class="panel panel-info">
+                            <div class="panel-heading">
+                                <div class="panel-title" align="center">Movie App - Search by Name</div>
+                            </div>
+                            <div class="panel-body">                                
+                                <div class="input-group">
+                                    <input id="inputMoiveName" type="text" class="form-control" name="moviename" value="" placeholder="Enter Movie Name" />                                        
+                                    <button id="getMovie" class="btn btn-success">Submit</button>
+                                </div> 
+                            </div>                     
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <ul id="moiveList" class="list-group">
+                    </ul>
+                </div>
+            </div>
+			<div class="row">
+                <div class="col-12" align="center">
+                    All &copy; rights are reserved.
+                </div>
+            </div>
+        </div>
+        <script src="./assets/js/myScript.js"></script>
+    </body>
+</html>
